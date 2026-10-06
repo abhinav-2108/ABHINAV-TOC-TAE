@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Initial arrow pointing to q0 -->
+    <path
+        android:strokeColor="#A5B4FC"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M24,54 L36,54" />
+    <path
+        android:fillColor="#A5B4FC"
+        android:pathData="M37,54 L32,50 L33.5,54 L32,58 Z" />
+
+    <!-- State q0: circle centered at (44, 54), radius 10 -->
+    <path
+        android:fillColor="#3730A3"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M44,44 A10,10 0 1,1 43.99,44 Z" />
+
+    <!-- State q1 (Accept State): outer circle centered at (72, 54), radius 13 -->
+    <path
+        android:fillColor="#4338CA"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2"
+        android:pathData="M72,41 A13,13 0 1,1 71.99,41 Z" />
+    <!-- State q1 inner accept ring: radius 9.5 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.8"
+        android:pathData="M72,44.5 A9.5,9.5 0 1,1 71.99,44.5 Z" />
+
+    <!-- Transition arrow q0 -> q1 (top curved arc) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FDE047"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M48,46 C54,38 62,38 67,44" />
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M69,46 L64,43 L66,45 L64,48 Z" />
+
+    <!-- Transition arrow q1 -> q0 (bottom curved arc) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FDE047"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M67,64 C62,70 54,70 48,62" />
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M46,62 L51,65 L49,63 L51,60 Z" />
+
+    <!-- q0 dot/indicator inside -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,52 A2,2 0 1,1 43.99,52 Z" />
+
+    <!-- q1 dot/indicator inside -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72,52 A2,2 0 1,1 71.99,52 Z" />
+</vector>

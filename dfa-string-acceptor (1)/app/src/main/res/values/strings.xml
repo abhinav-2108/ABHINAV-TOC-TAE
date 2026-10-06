@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DFA Acceptor</string>
+    <string name="title_dfa_acceptor">DFA String Acceptor</string>
+    <string name="subtitle_formal_def">M = (Q, Σ, δ, q₀, F)</string>
+    <string name="states_label">States Q</string>
+    <string name="states_placeholder">e.g. q0, q1, q2</string>
+    <string name="alphabet_label">Alphabet Σ</string>
+    <string name="alphabet_placeholder">e.g. 0, 1</string>
+    <string name="initial_state_label">Initial State q₀</string>
+    <string name="final_states_label">Final States F</string>
+    <string name="final_states_placeholder">e.g. q1 or q1, q2</string>
+    <string name="transition_function_label">Transition Function δ</string>
+    <string name="input_string_label">Input String w</string>
+    <string name="input_string_placeholder">e.g. 10101 (or blank for ε)</string>
+    <string name="run_dfa_button">RUN DFA</string>
+    <string name="result_accept">ACCEPT</string>
+    <string name="result_reject">REJECT</string>
+</resources>

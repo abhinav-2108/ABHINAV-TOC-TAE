@@ -1,0 +1,6 @@
+{
+  "name": "DFA String Acceptor",
+  "description": "Theory of Computation DFA simulator that tests whether input strings are accepted or rejected based on formal 5-tuple M = (Q, Σ, δ, q₀, F).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
